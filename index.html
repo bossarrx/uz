@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- jQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>arwrx.uz</title>
+    <link rel="shourtcut icon" href="./images/photo_2024-07-04_17-11-28.png">
+  </head>
+  <body>
+    <nav class="mobile-nav" id="mobile-nav" role="navigation">
+      <a
+        href="javascript:void(0)"
+        class="mobile-nav__btn-close"
+        onclick="closeNav()"
+      >
+        <i class="fa fa-solid fa-xmark"></i>
+      </a>
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item">
+          <a href="#one" class="mobile-nav__link">О нас</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#tri" class="mobile-nav__link">Тарифы</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="https://t.me/arwrxuz" class="mobile-nav__link">Телеграм</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="https://www.instagram.com/arwrx.uz/" class="mobile-nav__link">Инстаграм</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="tel:+998946502507" class="mobile-nav__link">Позвонить</a>
+        </li>
+      </ul>
+      <div class="mobile-nav__buttons">
+        <a href="#" class="btn btn-bordered">Sign in</a>
+        <a href="#" class="btn btn-bordered">Sign Up</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="container">
+        <header class="header">
+          <nav class="nav" role="navigation">
+            <img class="nav__logo" src="./images/photo_2024-07-04_17-11-28.png" alt="Logo" />
+
+            <ul class="nav__list desktop-nav">
+              <li class="nav__item">
+                <a href="#one"  class="nav__link">О нас</a>
+              </li>
+              <li class="nav__item">
+                <a href="./index.html"  class="nav__link">О команде</a>
+              </li>
+              <li class="nav__item"><a href="#tri" class="nav__link">Тарифы</a></li>
+              <li class="nav__item"><a href="https://t.me/arwrxuz" class="nav__link">Телеграм</a></li>
+              <li class="nav__item"><a href="https://www.instagram.com/arwrx.uz/" class="nav__link">Инстаграм</a></li>
+            </ul>
+
+            <div class="nav__buttons">
+              <a href="index.html">Sign in</a>
+              <a href="index.html" class="btn btn-bordered">Sign Up</a>
+              <a
+                href="javascript:void(0);"
+                class="nav__burger"
+                onclick="myFunction()"
+              >
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </nav>
+        </header>
+        <div class="hero-content">
+          <div class="hero-text-wrap">
+            <h1 class="hero-content__title">
+              arwrx.uz мы  не просто строим сайты –  мы  создаем  цифровые  решения
+            </h1>
+            <p class="hero-content__desc">
+               это команда талантливых веб-разработчиков и дизайнеров
+            </p>
+            <a href="https://t.me/Boss_Ar_Rx" class="btn btn-red">Связаться с менеджером</a>
+          </div>
+          <div class="hero-img-wrap">
+            <img
+              src="./images/programming-background-collage.jpg"
+              alt="Graph"
+              class="hero-content__image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="seperator-wrap">
+        <div class="seperator"></div>
+      </section>
+
+      <section class="features" id="one">
+        <div class="container">
+          <h2 class="features__title">Основные характеристики</h2>
+          <!-- <p class="features__desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+            nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam
+            vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
+            pulvinar risus pulvinar sit amet. Id vel in nam malesuada.
+          </p> -->
+
+          <div class="features-cards">
+            <div class="features-card">
+              <img alt="Clock Icon" class="features-card__img" src="images/clock-icon.png" />
+
+              <div class="features-card__text-wrap">
+                <span class="features-card__title">Всегда на связи</span>
+                <p class="features-card__desc">
+               Наша команда всегда на связи и в любой момент можем дать консультацию
+                </p>
+              </div>
+            </div>
+            <div class="features-card">
+              <img alt="Screen Icon" class="features-card__img" src="images/screen-icon.png" />
+              <div class="features-card__text-wrap">
+                <span class="features-card__title">Качественная работа</span>
+                <p class="features-card__desc">
+                 Наши разработчики используют приложении в премиум версии
+                </p>
+              </div>
+            </div>
+            <div class="features-card">
+              <img alt="Rocket Icon" class="features-card__img" src="images/rocket-icon.png" />
+              <div class="features-card__text-wrap">
+                <span class="features-card__title">Быстрая Работа </span>
+                <p class="features-card__desc">
+                  Мы максимально стараемся быстрее работать
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-grid">
+            <div class="features-grid__item">
+              <div class="features-grid__text-wrap">
+                <h2 class="features-grid__title">
+                  О нас
+                </h2>
+
+                <p class="features-grid__desc">
+                  Компания arwrx.uz была основана в начале 2024 года с целью предоставления высококачественных услуг по созданию сайтов. Специализируясь на создании современных и уникальных веб-ресурсов, arwrx.uz стремится помочь своим клиентам в достижении их бизнес-целей через эффективное интернет-присутствие.
+                </p>
+              </div>
+            </div>
+            <div class="features-grid__item">
+              <img
+                class="features-grid__image w-100"
+                src="./images/0000000000.jpg"
+                alt="Reports Image"
+              />
+            </div>
+          </div>
+
+          <div class="features-grid">
+            <div class="features-grid__item">
+              <img
+                class="features-grid__image w-100"
+                src="./images/team-working-animation-project.jpg"
+                alt="Graph Image"
+              />
+            </div>
+            <div class="features-grid__item">
+              <div class="features-grid__text-wrap">
+                <h2 class="features-grid__title">
+                  О команде
+                </h2>
+
+                <p class="features-grid__desc">
+                  Команда arwrx.uz состоит из опытных профессионалов, которые владеют самыми передовыми технологиями и следят за последними трендами в веб-дизайне. Компания предлагает полный спектр услуг, начиная от разработки концепции и дизайна, и заканчивая внедрением и поддержкой сайтов.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="features-grid">
+            <div class="features-grid__item">
+              <div class="features-grid__text-wrap">
+                <h2 class="features-grid__title">
+                  Срок
+                </h2>
+                <p class="features-grid__desc">
+                  Главными принципами arwrx.uz являются индивидуальный подход к каждому проекту, высокое качество исполнения и соблюдение сроков. Компания уже успела завоевать доверие своих клиентов благодаря профессионализму и креативному подходу.
+                </p>
+              </div>
+            </div>
+            <div class="features-grid__item">
+              <img
+                class="features-grid__image w-100"
+                src="images/calendar.png"
+                alt="Calendar Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="seperator-wrap" >
+        <div class="blue-body seperator"></div>
+      </section>
+
+    </main>
+
+    <section class="pricing text-center" id="tri">
+      <div class="container">
+        <h2 class="pricing__title text-white">Тарифные планы</h2>
+        <!-- <p class="pricing__desc">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+          nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae
+          nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus
+          pulvinar sit amet. Id vel in nam malesuada.
+        </p> -->
+        <div class="pricing-cards">
+          <div class="pricing-card">
+            <h5 class="pricing-card__title">Дизайн сайта</h5>
+            <!-- <p>up to 3 years</p> -->
+            <hr />
+            <span class="pricing-card__currency">Uzs</span
+            ><span class="pricing-card__amount">134.950</span>
+            <!-- <p>per month</p> -->
+            <a class="btn btn-bordered" href="https://t.me/Boss_Ar_Rx">Связаться с менеджером</a>
+          </div>
+
+          <div class="pricing-card" tabindex="0" id="focus">
+            <h5 class="pricing-card__title">Создание сайта </h5>
+            <!-- <p>up to 3 years</p> -->
+            <hr />
+            <span class="pricing-card__currency">Uzs</span
+            ><span class="pricing-card__amount">357.980</span>
+            <!-- <p>per month</p> -->
+            <a class="btn btn-red" href="https://t.me/Boss_Ar_Rx">Связаться с менеджером</a>
+          </div>
+
+          <div class="pricing-card">
+            <h5 class="pricing-card__title">Поддержка сайта</h5>
+            <!-- <p>В месяц</p> -->
+            <hr />
+            <span class="pricing-card__currency">Uzs</span
+            ><span class="pricing-card__amount">28.500</span>
+            <p>В месяц</p>
+            <a class="btn btn-bordered" href="https://t.me/Boss_Ar_Rx">Связаться с менеджером</a>
+          </div>
+        </div>
+
+        <footer>
+          <img alt="Logo" class="footer-logo" src="./images/photo_2024-07-04_17-12-16.png" />
+
+          <ul class="footer-nav">
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#one">О нас</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#tri">Тарифные планы</a>
+            </li>
+            <!-- <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">FAQ</a>
+            </li>
+            <li class="footer-nav-item">
+              <a class="footer-nav-link" href="#">Blog</a>
+            </li> -->
+          </ul>
+
+          <div class="footer-social-icons">
+            <ul>
+              <li>
+                <a href="#"><i class="fa fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-brands fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-brands fa-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
