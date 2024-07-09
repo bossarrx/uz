@@ -672,3 +672,13 @@ html {
       max-width: 60%;
     }
   }
+@media (max-width: 500px){
+    .features-grid__image{
+      width: 360px;
+    }
+  }
+  @media (max-width: 360px){
+    .features-grid__image{
+      width: 290px;
+    }
+  }
